@@ -1,0 +1,84 @@
+.modalSettingPrivacy{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.close{
+    font-size: 18px;    
+    position: relative;
+    left: 99%;
+    bottom: 18px;
+}
+.close:hover{
+    color:#04d7de;
+    font-size: 18px;    
+    position: relative;
+    left: 99%;
+    bottom: 18px;
+}
+.modal-header{
+    height: 15px;
+}
+.iconWarning{
+    position: relative;
+    right: 8px;
+    font-size: 32px;
+}
+.modalPrivacy{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 60%;
+    height:55%;
+}
+@font-face {
+    font-family: modalTle;
+    src: url('/FigmaFont/Almarai/Almarai-Bold.ttf');
+}
+.modal-Title{
+    font-family: modalTle;
+    font-size: 30px;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0px;
+}
+@font-face {
+    font-family: modalPharag;
+    src: url('/FigmaFont/Kameron/Kameron-VariableFont_wght.ttf');
+}
+.modal-Pharag{
+    /* font-family: userPharaFont; */
+    font-family: modalPharag;
+    font-size: 16px;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.btnModal{
+    padding: 10px 3rem;
+    border-radius: 5px;
+    background-color: #fc3535;
+    border: solid 2px #fc3535 ;
+    color: #fff;
+    cursor: pointer;
+    font-family: delte;
+}
+.btnModal:hover{
+    padding: 10px 3rem;
+    border-radius: 5px;
+    border: solid 2px #fc3535;
+    background-color: #fff;
+    color: #fc3535;
+    cursor: pointer;
+    font-family: delte;
+    font-weight: 600;
+}

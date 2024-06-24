@@ -1,0 +1,68 @@
+/* Setting.css */
+.settingMainContainer{
+    /* border: solid 1px #000; */
+    width: 260px;
+}
+.settingContainer {
+    height: 92vh;
+    /* height: 100vh; */
+    width: 260px;
+    background-color: rgba(22, 22, 22, 1);
+}
+
+.sidebar-item {
+    color: #fff;
+    padding: .75em 1em;
+    transition: background-color .15s;
+}
+
+.sidebar-item:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar-title {
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sidebar-title span i {
+    display: inline-block;
+    width: 1.2em;
+}
+
+.spanIcon {
+    margin-right: 3.8em;
+}
+
+.sidebar-title .toggle-btn {
+    transition: transform .3s;
+}
+
+.sidebar-item.open .sidebar-title .toggle-btn {
+    transform: rotate(180deg);
+}
+
+.sidebar-content {
+    padding-top: .25em;
+    height: 0;
+    overflow: hidden;
+    transition: height .3s ease;
+}
+
+.sidebar-item.open .sidebar-content {
+    height: auto;
+}
+
+.sidebar-subitem {
+    padding: .5em 0 0 .75em;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-subitem a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: .5em;
+}

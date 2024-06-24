@@ -1,0 +1,220 @@
+
+
+.orderDetailsComponent{
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconOrderList{
+    position: relative;
+    bottom: 1px;
+    font-size: 25px;
+    
+}
+.orderDetailsContainer{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    width: 60%;
+    height: 80%;
+}
+.orderDetailsTtl{
+    padding-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.orderDetailsBody{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 80%;
+    padding: 0px 0px 0px 5px;
+}
+.topLeftContainer{
+    /* border: solid 1px black; */
+    height: 80px;
+}
+.topLeftBody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border:solid 1px red; */
+}
+.topLeftListComponents{
+    position: relative;
+    top: 0px;
+    right: 50px;
+}
+@font-face {
+    font-family: bodyTitleFont;
+    src: url('/FigmaFont/Kameron/Kameron-VariableFont_wght.ttf');
+}
+.topLeftTitle{
+    font-family: bodyTitleFont;
+}
+@font-face {
+    font-family: bodyListFont;
+    src: url('/FigmaFont/Hubballi/Hubballi-Regular.ttf');
+}
+.topleftList{
+    font-size: 19px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif ; */
+    font-family: bodyListFont;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.topLeftIcon{
+    margin-right: 15px;
+    font-size: 50px;
+    color: #655D74;
+}
+.topRightIcon{
+    color: #655D74;
+    font-size: 50px;
+    position: relative;
+    bottom: 15px;
+    margin-right: 15px;
+}
+.bottomRightIcon{
+    color: #655D74;
+    font-size: 50px;
+    margin-right: 15px;
+    position: relative;
+    bottom: 24px;
+}
+.bottomLeftIcon{
+    color: #655D74;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+    
+    margin-right: 15px;
+}
+.topRightContainer{height: 80px;}
+.topRightBody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.topRightListComponents{
+    position: relative;
+    top: 0px;
+    right: 30px;
+}
+.topRightList{
+    font-size: 19px;
+    font-family: bodyListFont;
+    line-height: 30px;
+    position: relative;
+    bottom: 10px;
+}
+.topRightTitle{
+    font-family: bodyTitleFont;
+    position: relative;
+    bottom: 7px;
+}
+.bottomleftBody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.bottomleftTitle{
+    font-family: bodyTitleFont;
+    position: relative;
+    bottom: 5px;
+}
+.bottomleftList{
+    font-size: 19px;
+    font-family: bodyListFont;
+    line-height: 30px;
+    position: relative;
+    bottom:6px;
+}
+.bottomLeftListComponents{
+    position: relative;
+    top: 0px;
+    right: 30px;
+}
+.leftBottomContainer{height:100px;}
+.rightBottomContainer{height: 110px;}
+.bottomRightIcon{
+    position: relative;
+}
+.bottomrightBody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0;
+    height: 200px; 
+}
+.bottomRightTitle{
+    font-family: bodyTitleFont;
+    position: relative;
+    bottom: 10px;
+}
+.orderFormControl{
+    /* border: solid black 1px; */
+    height: 50%;
+    width: 70%;
+    background-color: #f0f0f0;
+    position: relative;
+    bottom: 4px;
+    /* box-shadow: 10px 10px 5px #E7E7E7; */
+    resize: none;
+    transition: width 3s,height 4s;
+}
+.orderFormControl:hover{
+    /* border: solid black 1px; */
+    height: 70%;
+    width: 80%;
+    background-color: #f0f0f0;
+    position: relative;
+    bottom: 4px;
+    box-shadow: 10px 10px 5px #E7E7E7;
+    resize: none;
+}
+.orderDetailsFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    position: relative;
+    bottom: 30px;
+}
+
+.btnOrderDetails{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 22%;
+    border-radius:5px;
+    text-decoration: none;  
+    background-color: #0094FF;
+    border: solid 1px #0094FF;
+    color: #fff;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnOrderDetails:hover {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 22%;
+    border-radius:5px;
+    text-decoration: none;  
+    /* background-color: #E8DEF9; */
+    background-color: #f5f2f2;
+    border: solid 2px #0094FF;
+    color: #0094FF;  
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

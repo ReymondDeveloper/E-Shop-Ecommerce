@@ -1,0 +1,49 @@
+.privacySettingMain{
+    height: 92vh;
+}
+.privacyContainer{
+    margin: 50px 100px;
+}
+.privacySettingHeader{  
+    border-bottom: solid 2px #ccc;
+    height: 10%;
+}
+.privacyTitleHeader{
+    padding: 10px 10px;
+    font-size: 25px;
+}
+.privacyPharag{
+    font-family: userTitleFont;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.privacySettingBody{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto 130px;
+}
+
+@font-face {
+    font-family: delte;
+    src: url('/FigmaFont/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+.privacyBtnDtl{
+    background-color: #fc3535;
+    color: #fff;
+    border: solid 2px #fc3535;
+    font-family: delte;
+    padding: 10px 30px;
+    border-radius:5px ;
+    cursor: pointer;
+    
+}
+.privacyBtnDtl:hover{
+    font-weight: 600;
+    border-radius:5px ;
+    background-color: #f7f7f7;
+    color: #FF0000;
+    border: solid 2px #fc3535;
+    font-family: delte;
+    padding: 10px 30px;
+    cursor: pointer;
+}

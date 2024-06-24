@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.RegisterContainer{
+    background-color: #E8DEF9;
+    padding: 6%;
+}
+.leftRegCol{
+    background-color: #6020CF;  
+}
+.rightRegCol{
+    background-color: #fff;
+}
+.reginInput{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    height: 50px;
+    padding-left:20px ;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+@font-face {
+    font-family: leftRegtitle;
+    src: url('/FigmaFont/Almarai/Almarai-Bold.ttf');
+}
+.regpharagh{
+  position: relative;
+  line-height: 15px;
+  bottom: 20px;
+  text-align: center;
+  font-family: leftRegtitle; 
+}
+@font-face {
+    font-family:leftRegPara ;
+    src: url('/FigmaFont/Athiti/Athiti-Regular.ttf');
+}
+.leftRegParagh{
+    font-family:leftRegPara ;
+    font-size: 20px;
+}
+
+.regSignin{
+  padding: 10px 55px;
+  border: 1px solid #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  background-color: #fff;
+  color: #7137D5;
+}
+.regSignin:hover {
+    background-color: #A985E7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 1px #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+.rightregTitle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+.regSection{
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#242424 ;
+    width: 250px;
+    height: 50px;
+    padding:0px 20px ;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.regSignup{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #7137D5; 
+    border: #7137D5 solid 1px;
+    color: #fff;
+    padding: 12px 70px;
+    border-radius: 25px;
+}
+.regSignup:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E8DEF9; 
+    border: #7137D5 solid 1px;
+    color: #7137D5;
+    padding: 12px 70px;
+    border-radius: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,91 @@
+.addressEditContainer{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editTle{
+    font-family: headerTle;
+}
+.addressEdit{
+    background-color: #fff;
+    width: 40%;
+    height: 60%;
+    border-radius: 10px;
+    padding:50px 100px;
+}
+.editAddressHeader{
+    font-size: 20px;
+}
+.firstLine{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}  
+.secondLine{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}  
+.thirdLine{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}  
+.inputData{
+    border: solid #ccc 1px;
+    height: 30px;
+    font-size: 15px;
+    font-family: userPharaFont;
+    padding-left: 10px;
+}
+.labelTle{
+    font-family: userTitleFont;
+    font-size: 15px;
+}
+.addressBtnContainer{
+    position:relative;
+    top: 30px;
+    left: 200px;
+}
+.addressBtnCancel{
+    text-decoration: none;
+    border: solid 1px #fff;
+    font-size: 14px;
+    padding: 6px 30px;
+    color: #808080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.addressBtnCancel:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 30px;
+    border: solid 1px #ccc;
+    background-color: #f0eded;
+    color: #8c8b8b;
+}
+.addressBtnSubmit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 30px;
+    background-color: #0094FF;
+    border: solid 1px #0094FF;
+    color: #fff;
+}
+.addressBtnSubmit:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 30px;
+    background-color: #ebf5fc;
+    border: solid 1px #0094FF;
+    color: #0094FF ;
+}

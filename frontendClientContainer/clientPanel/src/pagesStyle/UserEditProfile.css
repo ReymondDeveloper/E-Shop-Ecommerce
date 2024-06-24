@@ -1,0 +1,109 @@
+.userEditprofileContainer{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exitIconUser{
+    position:relative;
+    left: 100%;
+    top:3px;
+    padding: 10px;
+    font-size: 18px;
+    bottom: 24px;
+    color:#0094FF;
+}
+.exitIconUser:hover{
+    cursor: pointer;
+    position:relative;
+    left: 100%;
+    top:3px;
+    padding: 10px;
+    font-size: 18px;
+    bottom: 24px;
+    color: #04d7de;
+}
+.editHeadertitle{ 
+    font-family: homeListFont;
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+    color:#000;
+
+}
+.editProfileContainer{
+    background-color: #fff;
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+    padding:10px 50px;
+}
+.editHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 98%;
+}
+.editBody{
+    display: grid;
+    grid-template-columns: auto  auto;
+    column-gap: 20px;
+    height: 280px;
+    padding: 50px 40px;
+}
+.editBodyTxt{
+    height: 43px;
+    width: 100%;
+    border: solid 1px #ccc;
+    /* background-color: #D9D9D9; */
+    font-family: userPharaFont;
+    font-size: 18px;
+    padding-left: 15px;
+    position: relative;
+    bottom:13px;
+}
+.editTle{
+    font-family: userTitleFont;
+    font-size: 17px;
+    color:#000;
+}
+.editFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
+@font-face {
+    font-family:editBtn ;
+    src: url('/FigmaFont/Montagu_Slab/MontaguSlab-VariableFont_opsz\,wght.ttf');
+}
+.editUserBtn{
+    font-family: userFooteHdhTitle;
+    padding: 10px 60px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #0094FF;
+    color: #fff;
+    font-family:editBtn ;
+    font-weight: 600;
+    border: #0094FF solid 1px;
+}
+
+.editUserBtn:hover{
+    font-family: userFooteHdhTitle;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color:#f5f2f2;
+    color: #0094FF;
+    font-family:editBtn ;
+    font-weight: 600;
+    border: #0094FF solid 1px;
+}

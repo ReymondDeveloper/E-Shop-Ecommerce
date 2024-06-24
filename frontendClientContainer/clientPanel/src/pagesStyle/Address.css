@@ -1,0 +1,75 @@
+.addressMain{
+  height: 92vh;
+}
+.addressComponent{
+  margin: 100px;
+  height: 70%;
+}
+.addressIcon{
+  font-size: 16px;
+  position: relative;
+  top: 5px;  
+}
+.addressIcon:hover{
+  font-size: 16px;
+  position: relative;
+  top: 5px;
+  color: #04d7de;
+}
+.addressHeader{
+  display: grid;
+  grid-template-columns: 97% auto;
+  height: 50px;
+  padding-top:10px ;
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 10px;
+}
+.addressHeaderTle{
+  font-size: 20px;
+  font-family: headerTle;
+}
+.addressBody{
+  height: 100%;
+}
+.addressBodytleContainer{
+  display: flex;
+  padding: 0;
+}
+.addressBodyTle{
+  width: 20%;
+  font-size: 15px;
+  font-family: userTitleFont;
+}
+.Name{
+  width: 25%;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.addressBodytleFooter{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.addressBodyfooter{
+  font-size: 16px;
+}
+.addressDef{
+  border: solid 2px #f53333;
+  background-color: #fcf0f0;
+  color: #f53333;
+  padding: 4px 10px;
+}
+.addressBodyfooterBrgyCode{
+  font-size: 15px;
+  font-family: userPharaFont;
+  padding-bottom: 7px;
+}
+.addressBodyfooterHouseNo{
+  font-size: 15px;
+  font-family: userPharaFont;
+  padding-bottom: 7px;
+}
+.addressBodyfooterCode{
+  font-size: 15px;
+  font-family: userPharaFont;
+}

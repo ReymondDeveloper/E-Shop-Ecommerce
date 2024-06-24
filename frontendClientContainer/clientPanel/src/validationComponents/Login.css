@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+.loginContainer{
+  background-color: #E8DEF9;
+  padding: 6%;
+}
+.leftCol{
+  background-color: #fff;
+}
+.rightCol{
+  background-color: #6020CF;  
+}
+.logpharagh{
+  position: relative;
+  line-height: 15px;
+  bottom: 20px;
+}
+@font-face {
+  font-family: rightPara;
+  src: url('/FigmaFont/Athiti/Athiti-ExtraLight.ttf');
+}
+.rightParagh{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: rightPara;
+  font-size: 22px;
+}
+.logSignUp{
+  padding: 10px 55px;
+  border: 1px solid #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  background-color: #fff;
+  color: #7137D5;
+}
+.logSignUp:hover {
+  background-color: #A985E7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 1px #fff;
+  color: #fff;
+  cursor: pointer;
+}
+@font-face {
+  font-family: titleLogin;
+  src: url('/FigmaFont/Inria_Sans/InriaSans-Bold.ttf');
+}
+.leftTitle{
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: titleLogin;
+  font-weight: 800;
+}
+@font-face {
+  font-family:rightSignUpLogin ;
+  src: url('/FigmaFont/Almarai/Almarai-Regular.ttf');
+}
+.rightTitle{
+  font-family: rightSignUpLogin;
+  
+}
+.loginInput{
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 350px;
+  height: 50px;
+  padding-left:20px ;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.logSignIn{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #7137D5; 
+  border: #7137D5 solid 1px;
+  color: #fff;
+  padding: 12px 60px;
+  border-radius: 25px;
+}
+.logSignIn:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #E8DEF9; 
+  color: #7137D5;
+  border: 1px solid #7137D5;
+  padding: 12px 60px;
+  border-radius: 25px;
+  cursor: pointer;
+}

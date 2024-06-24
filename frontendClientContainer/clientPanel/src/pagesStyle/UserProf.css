@@ -1,0 +1,216 @@
+
+.userPrfHeaderDesign{
+    /* border:solid 1px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.iconUserHeader{
+    position: relative;
+    bottom:10px ;
+    font-size: 16px;
+    color:#fff;
+}
+.iconUserHeader:hover{
+    color: #04d7de;
+    position: relative;
+    bottom:10px ;
+    font-size: 16px;
+    cursor: pointer;
+}
+.userProfHeaderComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #D2BFF3; */
+    background-color: #7137D5;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 85%;
+    height: 70px;
+}
+
+.userHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.userBody{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px #000; */
+    height: 27rem;
+    margin: 0px 78px;
+    border-radius: 10px;
+}
+
+.userBodyHeaderTle{
+    font-family: headerTle;
+    position: absolute;
+    top: 195px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.userBodyHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    gap: 50px 20px; */
+    /* border: solid 1px #000; */
+}
+.userDetails {
+    width: 40%;
+}
+
+.userPhoto {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left:solid 2px #ccc;
+}
+
+.imageWrapper {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.userImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.defaultIcon {
+    display: flex;
+    font-size: 140px;
+    color: #ccc;
+}
+.uploadInput{
+    display: none;
+}
+.uploadImage{
+    color: #FFFFFF;
+    background-color: #0094FF;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 15px;
+    font-family: userFooteHdhTitle;
+    padding: 5px 25px;  
+    border-radius: 5px ;
+    cursor: pointer;
+    border: solid 1px  #0094FF;
+}
+.uploadImage:hover{
+    color: #000;
+    border: solid 1px  #0094FF;
+    background-color:#04d7de;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 15px;
+    font-family: userFooteHdhTitle;
+    padding: 5px 25px;  
+    border-radius: 5px ;
+    cursor: pointer;
+}
+@font-face {
+    font-family: userTitleFont;
+    src: url('/FigmaFont/Kameron/Kameron-VariableFont_wght.ttf');
+}
+.userTle{
+    font-size: 15px;
+    font-family: userTitleFont;
+}
+.userHeaderTitle{        
+    font-family: homeListFont;
+    font-size: 30px;
+}
+@font-face {
+    font-family: userPharaFont;
+    src: url('/FigmaFont/Hubballi/Hubballi-Regular.ttf');
+}
+.userPharag{
+    font-size: 18px;
+    font-family: userPharaFont;
+    height: 40px;
+    border-radius:5px;
+    padding:4px 8px;
+    border: solid 1px black;
+}
+.userFooter{
+    color: #000;
+    /* background-color: #655D74; */
+    background-color: #FFFFFF;
+    /* margin:10px 78px 0px 78px ; */
+    height: 129px;
+    /* border: solid 1px black; */
+    border-radius:10px ;
+    width: 100%;
+}
+@font-face {
+    font-family: userFooteHdhTitle;
+    src: url('/FigmaFont/Hubballi/Hubballi-Regular.ttf');
+}
+.userFooterHeaderTitle{
+    font-family: userFooteHdhTitle;
+    font-weight: 800;
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+    padding: 0px 120px;
+    margin-bottom: 10px;
+}
+.userFooterBody{
+    display: grid;
+    height: 79px;
+    margin: 0px 100px;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+.userFooterContainer{   
+    border-radius:10px;
+    display: flex;
+}
+.userIconFooter{
+    color: #0094FF;
+    font-size: 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.iconHeart{
+    position: relative;
+    bottom: 3px;
+}
+.userFooterTtl{
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+.userFooterParag{
+    font-family: userPharaFont;
+    font-size: 14px;
+    line-height: 3px;
+}

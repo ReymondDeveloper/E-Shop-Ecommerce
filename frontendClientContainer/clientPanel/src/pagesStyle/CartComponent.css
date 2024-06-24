@@ -1,0 +1,186 @@
+.clientCartComponent {
+    display: block;
+    background-color: #f7f7f7;
+  }
+  
+  .cartContainer {
+    display: grid;
+    grid-template-columns: auto 35%;
+    height: 92vh;
+    column-gap: 80px;
+    width: 100%;
+  }
+  
+  .cartContainerBody {
+    border: solid 1px #ccc;
+    width: 100%;
+    margin: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FFFFFF;
+  }
+  
+  .iconTleCart {
+    font-size: 17px;
+    margin-left: 5px;
+  }
+  
+  .cartTitleContainer {
+    font-family: userTitleFont;
+    font-size: 19px;
+    padding: 10px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  @font-face {
+    font-family: cartHeaderFont;
+    src: url('/FigmaFont/Montserrat/Montserrat-VariableFont_wght.ttf');
+  }
+  
+  
+  .list-header{
+    border-bottom: solid 2px  #0599fc;
+  }
+  .action{margin-right:13px ;}
+  .price{margin-right:20px ;}
+  .category{margin-right:10px ;}
+  .list {
+    /* border: solid 1px #000; */
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+     /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .cart-List {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cartHeaderFont;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .cart-Data {
+    font-family: cartHeaderFont;
+    font-size: 14px;
+  }
+  
+  .btnCartData {
+    padding: 5px 15px;
+    background-color: #fc3535;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .cartComponentFooter {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C2BEBE;
+  }
+  
+  .cartComponentFooterTitle {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .orderSummary {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    height: 52%;
+  }   
+  
+  .headerSummary {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  
+  .iconLtn {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  
+  .headerSumTtlPharg {
+    font-family: userTitleFont;
+    padding: 10px;
+    font-size: 18px;
+    height: 30px;
+  }
+  
+  .headerSumPharg {
+    font-size: 15px;
+    font-family: cartHeaderFont;
+    padding: 10px;
+    border-bottom: solid 1px #0599fc;
+  }
+  
+  .headerBody {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 12px;
+  }
+  
+  .headerBodyTle {
+    font-family: userTitleFont;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  
+  .headerBodyPhrg {
+    padding: 10px;
+    font-size: 15px;
+    font-family: cartHeaderFont;
+  }
+  
+  .headerFooterTlt {
+    font-family: userTitleFont;
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+  
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .headerFooterBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btnCheckOut {
+    background-color: #0599fc;
+    color: #fff;
+    border: solid 2px #0599fc;
+    margin-top: 10px;
+    font-family: userFooteHdhTitle;
+    padding: 10px 33%;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  .btnCheckOut:hover {
+    background-color: #f7f7f7;
+    color: #0599fc;
+    border: solid 2px #0599fc;
+    margin-top: 10px;
+    font-family: userFooteHdhTitle;
+    padding: 10px 33%;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  

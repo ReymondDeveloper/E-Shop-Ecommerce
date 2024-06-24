@@ -1,0 +1,118 @@
+.paymentMethodsContainer{
+    height: 92vh;
+}
+.paymentComponent{
+    margin: 100px;
+    height: 60%;
+    display: grid;
+    grid-template-rows: 50px auto auto;
+    row-gap: 23px;
+}
+.paymentHeader{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7137D5;
+}
+.paymentHeaderTle{
+    font-size: 23px;
+    font-family: pymTlt;
+    padding: 9px;
+}
+.pytBodyComponent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid 2px #ccc;
+}
+.pytBodyComponentFooter{
+    display: grid;
+    grid-template-columns: auto auto 100px;
+    padding: 15px;
+}
+
+.IconCheck{
+    font-size: 18px;
+    color: #03fc18;
+}
+.IconCard{
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+}
+.pytBodyComponentFooterMsg{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.noCardsMessage{
+    font-size: 15px;
+    color: #ccc;
+    font-family: pymComponentTlt;
+}
+@font-face {
+    font-family: pymComponentTlt;
+    src: url('/FigmaFont/Inknut_Antiqua/InknutAntiqua-Light.ttf');
+}
+.btnPaymentDtl{
+    border-radius: 5px;
+}
+.pytBodyTitle{
+    font-size: 18px;
+    font-family: pymComponentTlt;
+}
+.pytIconAdd{
+    font-size: 18px;
+    color: #0094FF;
+}
+.pytBodyPhrag{
+    font-family: userPharaFont;
+    font-size: 18px;
+}
+.pytIconAdd:hover{
+    font-size: 18px;
+    color: #cccfcd;
+    cursor: pointer;
+}
+.pytFooterHeaderComponent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid 2px #ccc;
+}
+
+.IconBank{
+    font-size: 25px;
+}
+.pytFooterComponent{
+    display: grid;
+    grid-template-columns: auto auto 100px;
+    padding: 15px;
+}
+.pytFooterComponentMsg{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.pytFooterTitle{
+    font-family: pymComponentTlt;
+    font-size:18px;
+}
+.pytFooterPhrg{
+    font-family: userPharaFont;
+    font-size: 18px;
+}
+.btnPaymentDtl{
+    font-family: userPharaFont;
+    border: solid 2px #f53333;
+    background-color:#f53333;
+    font-size: 15px;
+    color: #fff;
+    height: 38px;
+}
+.noBanksMessage{
+    font-size: 15px;
+    color: #ccc;
+    font-family: pymComponentTlt;
+}

@@ -1,0 +1,116 @@
+.paymentBankContainer{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paymentBank{
+    padding: 30px;
+    display: grid;
+    width: 40%;
+    height: 55%;
+    background: #fff;
+    display: grid;
+    grid-template-rows: 50px 230px auto;
+    row-gap: 10px;
+}
+.paymentBankHeader{
+    padding: 10px 0px;
+}
+.paymentBankHeaderTlt{
+    font-family: cardHeadertlt;
+    font-size: 18px;
+}
+.paymentBankBody{
+    padding: 10px 0px;
+}
+.paymentBankInput{
+    border: solid 1px #0599fc;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-family: bodyListFont;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.slc-Option{
+    background-color: #fff;
+    font-family: bodyListFont;
+    font-size: 18px;
+}
+.slTFirst{
+    color: #ccc;
+    font-size: 15px;
+}
+.iconPaymentBankCheck{
+    font-size: 14px;
+    color: #0599fc;
+    margin-right: 6px;
+}
+.paymentBankBodyPhg{
+    font-family: bodyListFont;
+    font-size: 17px;
+    position: relative;
+    bottom: 4px;
+}
+.paymentBankBodySetDef{
+    display: flex;
+}
+.listFirstOpt{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paymentBankFooter{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    height: 40px;
+    column-gap: 10px;
+}
+
+.btnCancelBank{
+    font-family: delte;
+    padding: 10px 40px;
+    background-color: #fff;
+    color: #515152;
+    border: solid 2px #cccfcd;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btnCancelBank:hover{
+    font-family: delte;
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius:5px ;
+    background-color: #f7f7f7;
+    color: #515152 ;
+    font-size: 12px;
+    border: solid 2px #cccfcd;
+    cursor: pointer;
+}
+.btnSaveBank{  
+    background-color: #0599fc;
+    color: #fff;
+    border: solid 2px #0599fc;
+    font-family: delte;
+    padding: 10px 40px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btnSaveBank:hover{  
+    font-weight: 600;
+    border-radius:5px ;
+    background-color: #f7f7f7;
+    color: #0599fc;
+    border: solid 2px #0599fc;
+    font-family: delte;
+    padding: 10px 40px;
+    font-size: 12px;
+    cursor: pointer;
+}

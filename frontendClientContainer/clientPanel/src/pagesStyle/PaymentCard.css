@@ -1,0 +1,149 @@
+.paymentCardContainer{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paymentCard{
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 170px 250px 95px;
+    width: 40%;
+    height: 80%;
+    background: #fff;
+}
+.cardHeaderTop{
+    height: 50px;
+    padding: 10px 0px;
+}
+@font-face {
+    font-family: cardHeadertlt;
+    src: url('/FigmaFont/Montagu_Slab/MontaguSlab-VariableFont_opsz\,wght.ttf');
+}
+.cardHeaderTlt{
+    font-family: cardHeadertlt;
+    font-size: 18px;
+}
+.cardHeaderBottom{
+    display: flex;
+    height: 90px;
+    flex-direction: row;
+    border: solid 1px #04c918 ;
+    padding: 10px 0px ;
+    background-color: #f2fcf8;
+}
+.iconCardBottom{
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 12px;
+    color:  #04c918;
+}
+.cardBottomContainer{
+    display: grid;
+    grid-template-rows: 25px 25px;
+    padding: 0;
+    line-height: 20px;   
+}
+.cardTle{
+    font-family: cardHeadertlt;
+    font-size: 14px;
+}
+.cardPharag{
+    font-family: bodyListFont;
+    font-size: 14px;
+}
+.cardBodyTop{
+    display: grid;
+    grid-template-columns: auto 33px 33px 33px  ;
+}
+.cardBodyPhrg{
+    font-family: cardHeadertlt;
+    font-size: 16px;
+}
+.payCardIcon{
+    font-size: 25px;
+}
+.cardBodyInput{
+    border: solid 1px #ccc;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom:25px ;
+    font-family: bodyListFont;
+    font-size: 17px;
+}
+.cardBodyInputRgt{
+    padding: 10px;
+    width: 43%;
+    height: 40px;
+    border: solid 1px #ccc;
+    margin-bottom:25px ;
+    font-family: bodyListFont;
+    font-size: 17px;
+}
+.cardBodyInputLft{
+    padding: 10px;
+    width: 55%;
+    height: 40px;
+    border: solid 1px #ccc;
+    margin-bottom:25px ;
+    margin-right: 10px;
+    font-family: bodyListFont;
+    font-size: 17px;
+}
+.cardFooter{
+    border: solid 1px red;
+    height: 50px;
+}
+.cardFooterContainer{
+    display: grid;
+    row-gap: 5px;
+}
+.cardBtnCancel{
+    background-color: #fff;
+    color: #515152;
+    border: solid 2px #cccfcd;
+    font-family: delte;
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.cardBtnCancel:hover{
+    font-weight: 600;
+    border-radius:5px ;
+    background-color: #f7f7f7;
+    color: #515152 ;
+    border: solid 2px #cccfcd;
+    font-family: delte;
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.cardBtnSubmit{
+    /* background-color: #2b32fc; */
+    background-color: #0599fc;
+    color: #fff;
+    border: solid 2px #0599fc;
+    font-family: delte;
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.cardBtnSubmit:hover{
+    font-weight: 600;
+    border-radius:5px ;
+    background-color: #f7f7f7;
+    color: #0599fc;
+    border: solid 2px #0599fc;
+    font-family: delte;
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
